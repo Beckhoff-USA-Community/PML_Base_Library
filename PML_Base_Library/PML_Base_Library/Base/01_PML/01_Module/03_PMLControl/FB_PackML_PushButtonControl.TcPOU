@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <POU Name="FB_PackML_PushButtonControl" Id="{6be5865f-6c78-4181-b3c0-db233d854256}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_PackML_PushButtonControl EXTENDS FB_PackML_ExternalControl
 VAR_INPUT
@@ -7,12 +7,11 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
-	bStartButton	AT %I* : BOOL;	//Tie to hardware start pushbutton
-	//TODO: add other buttons
-END_VAR
-]]></Declaration>
+    bStartButton AT %I* : BOOL; //Tie to hardware start pushbutton
+    //TODO: add other buttons
+END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[//TODO: implement button control]]></ST>
+      <ST><![CDATA[//TODO: implement button control ]]></ST>
     </Implementation>
     <LineIds Name="FB_PackML_PushButtonControl">
       <LineId Id="9" Count="0" />

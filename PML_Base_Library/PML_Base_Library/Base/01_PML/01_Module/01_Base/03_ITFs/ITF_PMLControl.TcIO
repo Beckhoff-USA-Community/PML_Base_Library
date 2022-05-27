@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Itf Name="ITF_PMLControl" Id="{0a595185-78e0-4efa-95fb-0ab72c8c824d}">
-    <Declaration><![CDATA[INTERFACE ITF_PMLControl
-]]></Declaration>
+    <Declaration><![CDATA[INTERFACE ITF_PMLControl]]></Declaration>
     <Property Name="Mode" Id="{68aa19f0-a027-4849-bb10-f5584ab8d043}">
       <Declaration><![CDATA[PROPERTY Mode : E_PMLUnitMode]]></Declaration>
       <Get Name="Get" Id="{e4c0be11-49fb-4f99-95fb-f87a759ebdeb}">

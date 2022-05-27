@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Itf Name="ITF_PackML_ExternalControl" Id="{a3400217-1f97-479c-ba87-653405cf2b19}">
-    <Declaration><![CDATA[INTERFACE ITF_PackML_ExternalControl EXTENDS ITF_PackML_ExternalControl_Simplified
-]]></Declaration>
+    <Declaration><![CDATA[INTERFACE ITF_PackML_ExternalControl EXTENDS ITF_PackML_ExternalControl_Simplified]]></Declaration>
     <Property Name="Mode" Id="{91ac7fa4-5fb0-432a-b12b-0ec9dbcf9fac}">
       <Declaration><![CDATA[PROPERTY Mode : DINT]]></Declaration>
       <Get Name="Get" Id="{a093e9da-0cb3-4558-818a-414a204354b9}">

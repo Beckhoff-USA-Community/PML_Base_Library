@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Itf Name="ITF_PackML_ExternalControl_Simplified" Id="{38359e46-e01b-44f0-9526-d8ad34010880}">
-    <Declaration><![CDATA[INTERFACE ITF_PackML_ExternalControl_Simplified
-]]></Declaration>
+    <Declaration><![CDATA[INTERFACE ITF_PackML_ExternalControl_Simplified]]></Declaration>
     <Property Name="ClearEnabled" Id="{b8bd1ccd-38e5-44ab-9eac-62f1a61a7536}">
-      <Declaration><![CDATA[
-PROPERTY ClearEnabled : BOOL
-]]></Declaration>
+      <Declaration><![CDATA[PROPERTY ClearEnabled : BOOL]]></Declaration>
       <Get Name="Get" Id="{d8e3f3a7-9121-4f0e-9b22-b3dd39c1cd05}">
         <Declaration><![CDATA[]]></Declaration>
       </Get>
@@ -15,9 +12,7 @@ PROPERTY ClearEnabled : BOOL
       </Set>
     </Property>
     <Property Name="ClearPressed" Id="{ac61034c-b84c-4b3f-a7b1-6d646095341f}">
-      <Declaration><![CDATA[
-PROPERTY ClearPressed : BOOL
-]]></Declaration>
+      <Declaration><![CDATA[PROPERTY ClearPressed : BOOL]]></Declaration>
       <Get Name="Get" Id="{94aba287-04ef-4aed-ab71-3429650bf8f9}">
         <Declaration><![CDATA[]]></Declaration>
       </Get>

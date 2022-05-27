@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Itf Name="ITF_PMLModuleBase" Id="{eca4a56b-850e-483e-b687-2de3b3950c24}">
-    <Declaration><![CDATA[INTERFACE ITF_PMLModuleBase EXTENDS ITF_PMLControl
-
-]]></Declaration>
+    <Declaration><![CDATA[INTERFACE ITF_PMLModuleBase EXTENDS ITF_PMLControl]]></Declaration>
     <Folder Name="01_Properties" Id="{b9b76dff-8c1e-4a81-8fb8-90bae0384924}">
       <Folder Name="01_Config" Id="{c034098c-56e3-4732-a681-b27df2a6a3ee}" />
       <Folder Name="02_Control" Id="{f156f415-4f70-402d-872f-de20fbc04916}" />
@@ -20,7 +18,7 @@
       </Set>
     </Property>
     <Property Name="CurrentAlarmSeverity" Id="{6330edd2-66f0-4e35-86ff-3d09385aa422}" FolderPath="01_Properties\03_Status\">
-      <Declaration><![CDATA[PROPERTY CurrentAlarmSeverity :  TcEventSeverity]]></Declaration>
+      <Declaration><![CDATA[PROPERTY CurrentAlarmSeverity : TcEventSeverity]]></Declaration>
       <Get Name="Get" Id="{2352a7a5-1a04-4154-bd74-fbb96f906eec}">
         <Declaration><![CDATA[]]></Declaration>
       </Get>
@@ -56,7 +54,7 @@
       </Set>
     </Property>
     <Property Name="MasterDataStructure_Adder" Id="{e8e1f737-2d53-4f7e-85f8-3eda713a980e}" FolderPath="01_Properties\01_Config\">
-      <Declaration><![CDATA[PROPERTY MasterDataStructure_Adder :  ITF_Tree_IndexBased]]></Declaration>
+      <Declaration><![CDATA[PROPERTY MasterDataStructure_Adder : ITF_Tree_IndexBased]]></Declaration>
       <Get Name="Get" Id="{9a79581e-ec99-41c5-b4c5-b12242225d5c}">
         <Declaration><![CDATA[]]></Declaration>
       </Get>
