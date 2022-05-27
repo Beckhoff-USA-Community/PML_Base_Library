@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.29">
+	<Project ProjectGUID="{E2187EDF-980A-4F6D-AD3D-91C59AAB3E31}" ShowHideConfigurations="#x106">
+		<System>
+			<TypeSystem>
+				<AdditionalTmcFile Name="PMLBase_TMC" File="PML_Base_Library\Base\01_PML\98_EventDefinitions\PMLBase_TMC.tmc"/>
+				<AdditionalTmcFile Name="BasicComponents_AlarmDefinitions" File="PML_Base_Library\Base\02_Component\BasicComponents_AlarmDefinitions.tmc"/>
+			</TypeSystem>
+		</System>
+		<Plc>
+			<Project GUID="{9894C1A1-52A4-45A8-B475-81D1110EB058}" Name="PML_Base_Library" PrjFilePath="PML_Base_Library\PML_Base_Library.plcproj" TmcFilePath="PML_Base_Library\PML_Base_Library.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e"/>
+		</Plc>
+	</Project>
+</TcSmProject>

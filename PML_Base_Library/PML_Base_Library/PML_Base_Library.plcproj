@@ -1,0 +1,280 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9894c1a1-52a4-45a8-b475-81d1110eb058}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <DownloadApplicationInfo>true</DownloadApplicationInfo>
+    <WriteProductVersion>true</WriteProductVersion>
+    <GenerateTpy>false</GenerateTpy>
+    <Name>PML_Base_Library</Name>
+    <ProgramVersion>3.1.4023.0</ProgramVersion>
+    <Application>{4b702f7e-a91b-401c-aaf3-591e762d95fc}</Application>
+    <TypeSystem>{1835861b-6f72-4d2b-ae48-034986b1dbf5}</TypeSystem>
+    <Implicit_Task_Info>{7b8dfe9f-93ae-4f7f-a993-38ab95a9d923}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{3aaa84a0-f6bd-42a2-bb0a-68586043b52f}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{7e97756e-a559-417c-b446-292eb4cefeae}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{a95a0156-c2bb-4ce5-9e5a-3811b16ebd14}</LibraryReferences>
+    <Company>SPT</Company>
+    <Released>false</Released>
+    <Title>PML_Base_Library</Title>
+    <ProjectVersion>0.1</ProjectVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PlaceholderReference Include="System_VisuElemMeter">
+      <DefaultResolution>VisuElemMeter, 3.5.13.0 (System)</DefaultResolution>
+      <Namespace>VisuElemMeter</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="System_VisuElems">
+      <DefaultResolution>VisuElems, 3.5.13.40 (System)</DefaultResolution>
+      <Namespace>VisuElems</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="System_VisuElemsSpecialControls">
+      <DefaultResolution>VisuElemsSpecialControls, 3.5.13.0 (System)</DefaultResolution>
+      <Namespace>VisuElemsSpecialControls</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="System_VisuElemsWinControls">
+      <DefaultResolution>VisuElemsWinControls, 3.5.13.20 (System)</DefaultResolution>
+      <Namespace>VisuElemsWinControls</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="System_VisuElemTextEditor">
+      <DefaultResolution>VisuElemTextEditor, 3.5.13.0 (System)</DefaultResolution>
+      <Namespace>VisuElemTextEditor</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="system_visuinputs">
+      <DefaultResolution>visuinputs, 3.5.13.0 (system)</DefaultResolution>
+      <Namespace>visuinputs</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="System_VisuNativeControl">
+      <DefaultResolution>VisuNativeControl, 3.5.13.0 (System)</DefaultResolution>
+      <Namespace>VisuNativeControl</Namespace>
+      <SystemLibrary>true</SystemLibrary>
+      <ResolverGuid>2717eb6a-dd07-4c66-8d8d-cacebd7b18ae</ResolverGuid>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_Standard">
+      <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Standard</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_System">
+      <DefaultResolution>Tc2_System, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_System</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc3_EventLogger">
+      <DefaultResolution>Tc3_EventLogger, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc3_EventLogger</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc3_PackML_V2">
+      <DefaultResolution>Tc3_PackML_V2, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc3_PackML_V2</Namespace>
+    </PlaceholderReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base" />
+    <Folder Include="Base\01_PML" />
+    <Folder Include="Base\01_PML\01_Module" />
+    <Folder Include="Base\01_PML\01_Module\01_Base" />
+    <Folder Include="Base\01_PML\01_Module\01_Base\01_GVL" />
+    <Folder Include="Base\01_PML\01_Module\01_Base\02_DUT" />
+    <Folder Include="Base\01_PML\01_Module\01_Base\02_DUT\01_ENUM" />
+    <Folder Include="Base\01_PML\01_Module\01_Base\02_DUT\02_STRUCT" />
+    <Folder Include="Base\01_PML\01_Module\01_Base\03_ITFs" />
+    <Folder Include="Base\01_PML\01_Module\02_Events" />
+    <Folder Include="Base\01_PML\01_Module\03_PMLControl" />
+    <Folder Include="Base\01_PML\01_Module\03_PMLControl\01_GVL" />
+    <Folder Include="Base\01_PML\01_Module\03_PMLControl\02_DUT" />
+    <Folder Include="Base\01_PML\01_Module\03_PMLControl\03_ITFs" />
+    <Folder Include="Base\01_PML\01_Module\05_Visualizations" />
+    <Folder Include="Base\01_PML\98_EventDefinitions" />
+    <Folder Include="Base\01_PML\99_Templates" />
+    <Folder Include="Base\02_Component" />
+    <Folder Include="Base\03_Utilities" />
+    <Folder Include="Base\03_Utilities\01_Events" />
+    <Folder Include="Base\03_Utilities\02_DataStructures" />
+    <Folder Include="Base\03_Utilities\02_DataStructures\01_Tree" />
+    <Folder Include="Base\03_Utilities\02_DataStructures\01_Tree\01_Tree_IndexBased" />
+    <Folder Include="Base\03_Utilities\02_DataStructures\02_FIFO" />
+    <Folder Include="Base\03_Utilities\03_Math" />
+    <Folder Include="Base\03_Utilities\03_Math\01_LREAL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\01_PML\01_Module\01_Base\01_GVL\GVL_PML_Base.TcGVL">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\02_DUT\01_ENUM\E_AlarmResponse.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\02_DUT\01_ENUM\E_PMLUnitMode.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\02_DUT\02_STRUCT\ST_PMLModuleBase_HMI.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\02_DUT\02_STRUCT\ST_PMLModuleBase_VISU.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\02_DUT\02_STRUCT\ST_PMLSubUnitInfoExt.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\03_ITFs\ITF_PMLControl.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\03_ITFs\ITF_PMLModuleBase.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\01_Base\FB_PMLModuleBase.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\02_Events\FB_PMLModeLogger.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\02_Events\FB_PMLStateLogger.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\03_PMLControl\03_ITFs\ITF_PackML_ExternalControl.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\03_PMLControl\03_ITFs\ITF_PackML_ExternalControl_Simplified.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\03_PMLControl\FB_ModuleExternalCommandControl.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\03_PMLControl\FB_PackML_ExternalControl.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\03_PMLControl\FB_PackML_PushButtonControl.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\05_Visualizations\V_MachineModule.TcVIS">
+      <SubType>Code</SubType>
+      <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
+    </Compile>
+    <Compile Include="Base\01_PML\01_Module\05_Visualizations\V_Module.TcVIS">
+      <SubType>Code</SubType>
+      <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
+    </Compile>
+    <Compile Include="Base\01_PML\99_Templates\FB_Module_TEMPLATE.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\02_Component\FB_ComponentBase.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\02_Component\ITF_ComponentBase.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\02_Component\ST_ComponentBase_HMI.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\01_Events\F_CreateAllEventsInClass.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\01_Events\F_GetMaxSeverityRaised.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\01_Events\F_RaiseAlarmAndSetFlags.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\01_Events\F_RaiseAlarmWithStringParameters.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\01_Events\F_RaiseAlarmWithStringsAndFlags.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\02_DataStructures\01_Tree\01_Tree_IndexBased\FB_Tree_IndexBased.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\02_DataStructures\01_Tree\01_Tree_IndexBased\ITF_Tree_IndexBased.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\02_DataStructures\01_Tree\01_Tree_IndexBased\ST_Tree_IndexBased_Node.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\02_DataStructures\02_FIFO\FB_FIFO_ULINT_Array.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\03_Utilities\03_Math\01_LREAL\F_LREAL_RoundToPlace.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalTextList.TcGTLO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visualization Manager.TcVMO">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PML_Base_Library.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Base\01_PML\98_EventDefinitions\PMLBase_TMC.tmc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Base\01_PML\98_EventDefinitions\PMLBase_TMCTemplate.xlsx">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ProjectExtensions>
+    <PlcProjectOptions>
+      <XmlArchive>
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
+      <v n="Name">"&lt;ProjectRoot&gt;"</v>
+      <d n="SubKeys" t="Hashtable" ckt="String" cvt="OptionKey">
+        <v>{192FAD59-8248-4824-A8DE-9177C94C195A}</v>
+        <o>
+          <v n="Name">"{192FAD59-8248-4824-A8DE-9177C94C195A}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" />
+        </o>
+        <v>{246001F4-279D-43AC-B241-948EB31120E1}</v>
+        <o>
+          <v n="Name">"{246001F4-279D-43AC-B241-948EB31120E1}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" ckt="String" cvt="Boolean">
+            <v>UnicodeStrings</v>
+            <v>False</v>
+          </d>
+        </o>
+        <v>{8F99A816-E488-41E4-9FA3-846536012284}</v>
+        <o>
+          <v n="Name">"{8F99A816-E488-41E4-9FA3-846536012284}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" />
+        </o>
+        <v>{40450F57-0AA3-4216-96F3-5444ECB29763}</v>
+        <o>
+          <v n="Name">"{40450F57-0AA3-4216-96F3-5444ECB29763}"</v>
+          <d n="SubKeys" t="Hashtable" />
+          <d n="Values" t="Hashtable" ckt="String" cvt="String">
+            <v>ActiveVisuProfile</v>
+            <v>IR0whWr8bwfwBwAAiD2qpQAAAABVAgAA37x72QAAAAABAAAAAAAAAAEaUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwACTHsAZgA5ADUAYgBiADQAMgA2AC0ANQA1ADIANAAtADQAYgA0ADUALQA5ADQAMAAwAC0AZgBiADAAZgAyAGUANwA3AGUANQAxAGIAfQADCE4AYQBtAGUABDBUAHcAaQBuAEMAQQBUACAAMwAuADEAIABCAHUAaQBsAGQAIAA0ADAAMgA0AC4ANwAFFlAAcgBvAGYAaQBsAGUARABhAHQAYQAGTHsAMQA2AGUANQA1AGIANgAwAC0ANwAwADQAMwAtADQAYQA2ADMALQBiADYANQBiAC0ANgAxADQANwAxADMAOAA3ADgAZAA0ADIAfQAHEkwAaQBiAHIAYQByAGkAZQBzAAhMewAzAGIAZgBkADUANAA1ADkALQBiADAANwBmAC0ANABkADYAZQAtAGEAZQAxAGEALQBhADgAMwAzADUANgBhADUANQAxADQAMgB9AAlMewA5AGMAOQA1ADgAOQA2ADgALQAyAGMAOAA1AC0ANAAxAGIAYgAtADgAOAA3ADEALQA4ADkANQBmAGYAMQBmAGUAZABlADEAYQB9AAoOVgBlAHIAcwBpAG8AbgALBmkAbgB0AAwKVQBzAGEAZwBlAA0KVABpAHQAbABlAA4aVgBpAHMAdQBFAGwAZQBtAE0AZQB0AGUAcgAPDkMAbwBtAHAAYQBuAHkAEAxTAHkAcwB0AGUAbQARElYAaQBzAHUARQBsAGUAbQBzABIwVgBpAHMAdQBFAGwAZQBtAHMAUwBwAGUAYwBpAGEAbABDAG8AbgB0AHIAbwBsAHMAEyhWAGkAcwB1AEUAbABlAG0AcwBXAGkAbgBDAG8AbgB0AHIAbwBsAHMAFCRWAGkAcwB1AEUAbABlAG0AVABlAHgAdABFAGQAaQB0AG8AcgAVIlYAaQBzAHUATgBhAHQAaQB2AGUAQwBvAG4AdAByAG8AbAAWFHYAaQBzAHUAaQBuAHAAdQB0AHMAFwxzAHkAcwB0AGUAbQAYGFYAaQBzAHUARQBsAGUAbQBCAGEAcwBlABkmRABlAHYAUABsAGEAYwBlAGgAbwBsAGQAZQByAHMAVQBzAGUAZAAaCGIAbwBvAGwAGyJQAGwAdQBnAGkAbgBDAG8AbgBzAHQAcgBhAGkAbgB0AHMAHEx7ADQAMwBkADUAMgBiAGMAZQAtADkANAAyAGMALQA0ADQAZAA3AC0AOQBlADkANAAtADEAYgBmAGQAZgAzADEAMABlADYAMwBjAH0AHRxBAHQATABlAGEAcwB0AFYAZQByAHMAaQBvAG4AHhRQAGwAdQBnAGkAbgBHAHUAaQBkAB8WUwB5AHMAdABlAG0ALgBHAHUAaQBkACBIYQBmAGMAZAA1ADQANAA2AC0ANAA5ADEANAAtADQAZgBlADcALQBiAGIANwA4AC0AOQBiAGYAZgBlAGIANwAwAGYAZAAxADcAIRRVAHAAZABhAHQAZQBJAG4AZgBvACJMewBiADAAMwAzADYANgBhADgALQBiADUAYwAwAC0ANABiADkAYQAtAGEAMAAwAGUALQBlAGIAOAA2ADAAMQAxADEAMAA0AGMAMwB9ACMOVQBwAGQAYQB0AGUAcwAkTHsAMQA4ADYAOABmAGYAYwA5AC0AZQA0AGYAYwAtADQANQAzADIALQBhAGMAMAA2AC0AMQBlADMAOQBiAGIANQA1ADcAYgA2ADkAfQAlTHsAYQA1AGIAZAA0ADgAYwAzAC0AMABkADEANwAtADQAMQBiADUALQBiADEANgA0AC0ANQBmAGMANgBhAGQAMgBiADkANgBiADcAfQAmFk8AYgBqAGUAYwB0AHMAVAB5AHAAZQAnVFUAcABkAGEAdABlAEwAYQBuAGcAdQBhAGcAZQBNAG8AZABlAGwARgBvAHIAQwBvAG4AdgBlAHIAdABpAGIAbABlAEwAaQBiAHIAYQByAGkAZQBzACgQTABpAGIAVABpAHQAbABlACkUTABpAGIAQwBvAG0AcABhAG4AeQAqHlUAcABkAGEAdABlAFAAcgBvAHYAaQBkAGUAcgBzACs4UwB5AHMAdABlAG0ALgBDAG8AbABsAGUAYwB0AGkAbwBuAHMALgBIAGEAcwBoAHQAYQBiAGwAZQAsEnYAaQBzAHUAZQBsAGUAbQBzAC1INgBjAGIAMQBjAGQAZQAxAC0AZAA1AGQAYwAtADQAYQAzAGIALQA5ADAANQA0AC0AMgAxAGYAYQA3ADUANgBhADMAZgBhADQALihJAG4AdABlAHIAZgBhAGMAZQBWAGUAcgBzAGkAbwBuAEkAbgBmAG8AL0x7AGMANgAxADEAZQA0ADAAMAAtADcAZgBiADkALQA0AGMAMwA1AC0AYgA5AGEAYwAtADQAZQAzADEANABiADUAOQA5ADYANAAzAH0AMBhNAGEAagBvAHIAVgBlAHIAcwBpAG8AbgAxGE0AaQBuAG8AcgBWAGUAcgBzAGkAbwBuADIMTABlAGcAYQBjAHkAMzBMAGEAbgBnAHUAYQBnAGUATQBvAGQAZQBsAFYAZQByAHMAaQBvAG4ASQBuAGYAbwA0MEwAbwBhAGQATABpAGIAcgBhAHIAaQBlAHMASQBuAHQAbwBQAHIAbwBqAGUAYwB0ADUaQwBvAG0AcABhAHQAaQBiAGkAbABpAHQAeQDQAAIaA9ADAS0E0AUGGgfQBwgaAUUHCQjQAAkaBEUKCwQDAAAABQAAAA0AAAAAAAAA0AwLrQIAAADQDQEtDtAPAS0Q0AAJGgRFCgsEAwAAAAUAAAANAAAAKAAAANAMC60BAAAA0A0BLRHQDwEtENAACRoERQoLBAMAAAAFAAAADQAAAAAAAADQDAutAgAAANANAS0S0A8BLRDQAAkaBEUKCwQDAAAABQAAAA0AAAAUAAAA0AwLrQIAAADQDQEtE9APAS0Q0AAJGgRFCgsEAwAAAAUAAAANAAAAAAAAANAMC60CAAAA0A0BLRTQDwEtENAACRoERQoLBAMAAAAFAAAADQAAAAAAAADQDAutAgAAANANAS0V0A8BLRDQAAkaBEUKCwQDAAAABQAAAA0AAAAAAAAA0AwLrQIAAADQDQEtFtAPAS0X0AAJGgRFCgsEAwAAAAUAAAANAAAAKAAAANAMC60EAAAA0A0BLRjQDwEtENAZGq0BRRscAdAAHBoCRR0LBAMAAAAFAAAADQAAAAAAAADQHh8tINAhIhoCRSMkAtAAJRoFRQoLBAMAAAADAAAAAAAAAAoAAADQJgutAAAAANADAS0n0CgBLRHQKQEtENAAJRoFRQoLBAMAAAADAAAAAAAAAAoAAADQJgutAQAAANADAS0n0CgBLRHQKQEtEJoqKwFFAAEC0AABLSzQAAEtF9AAHy0t0C4vGgPQMAutAQAAANAxC60XAAAA0DIarQDQMy8aA9AwC60CAAAA0DELrQMAAADQMhqtANA0Gq0A0DUarQA=</v>
+          </d>
+        </o>
+      </d>
+      <d n="Values" t="Hashtable" />
+    </o>
+  </Data>
+  <TypeList>
+    <Type n="Boolean">System.Boolean</Type>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
+    </PlcProjectOptions>
+  </ProjectExtensions>
+</Project>
