@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Visu Name="V_MachineModule" Id="{38d3adcf-05a5-497d-bb81-55443dba2d43}">
     <XmlArchive>
       <Data>
@@ -2054,12 +2054,12 @@
                               <d n="TypeNodeAttributesData" t="CaseInsensitiveHashtable" ckt="String" cvt="String">
                                 <v>Visible</v>
                                 <v>False</v>
-                                <v>DefaultArraySize</v>
-                                <v>5</v>
-                                <v>VisibleChildren</v>
-                                <v>True</v>
                                 <v>ieccodeconversion_array</v>
                                 <v></v>
+                                <v>VisibleChildren</v>
+                                <v>True</v>
+                                <v>DefaultArraySize</v>
+                                <v>5</v>
                                 <v>''NORMAL__COMMENT</v>
                                 <v> We hide this node to prevent having two References nodes
  Nevertheless we want to make sure that the children are displayed</v>
@@ -2115,8 +2115,8 @@
                         <o n="TypeNodeAttributes" t="TypeNodeAttributes2">
                           <v n="AttrFlags">81920UL</v>
                           <d n="TypeNodeAttributesData" t="CaseInsensitiveHashtable" ckt="String" cvt="String">
-                            <v>DisplayFrameReferencesConfiguration</v>
-                            <v></v>
+                            <v>conditionalshow</v>
+                            <v>visu_elemdev</v>
                             <v>DescriptionTextId</v>
                             <v>TL_ElementProperties.Desc_ReferencedVisus</v>
                             <v>SortFlag</v>
@@ -2127,14 +2127,14 @@
                             <v>Simple|Standard</v>
                             <v>DynamicArray</v>
                             <v></v>
-                            <v>conditionalshow</v>
-                            <v>visu_elemdev</v>
+                            <v>DisplayFrameReferencesConfiguration</v>
+                            <v></v>
                             <v>FrameReferences</v>
                             <v></v>
-                            <v>DisplayTextId</v>
-                            <v>TL_ElementProperties.References</v>
                             <v>Storable</v>
                             <v>True</v>
+                            <v>DisplayTextId</v>
+                            <v>TL_ElementProperties.References</v>
                           </d>
                           <v n="ConvDone">true</v>
                         </o>
@@ -2198,7 +2198,7 @@
                         <l n="TypeNodeChildren" t="ArrayList" cet="BasicTypeNode">
                           <o>
                             <v n="Flags">2L</v>
-                            <v n="BasicTypeNodeValue">"stVisu"</v>
+                            <n n="BasicTypeNodeValue" />
                             <v n="BasicTypeNodeAcceptsExpression">true</v>
                             <n n="BasicTypeNodeFastAccess" />
                             <a n="BasicTypeNodeEnumValues" et="String" />
@@ -2209,8 +2209,8 @@
                             <l n="TypeNodeChildren" t="ArrayList" />
                             <o n="TypeNodeType" t="TypeNodeType">
                               <v n="TypeClass" t="TypeClass">Reference</v>
-                              <v n="QualifiedName">"ST_PMLModuleBaseVISU"</v>
-                              <v n="Name">"ST_PMLModuleBaseVISU"</v>
+                              <v n="QualifiedName">"ST_PMLModuleBase_VISU"</v>
+                              <v n="Name">"ST_PMLModuleBase_VISU"</v>
                             </o>
                             <v n="TypeNodeName">"stVisu"</v>
                             <o n="TypeNodeAttributes" t="TypeNodeAttributes2">
@@ -2251,10 +2251,6 @@
                         <n n="DescriptionTextID" />
                         <v n="DescriptionUseParent">false</v>
                       </o>
-                    </o>
-                    <o>
-                      <v n="Id">2537106899L</v>
-                      <v n="Value">"stVisu"</v>
                     </o>
                   </l>
                 </o>
@@ -2508,10 +2504,10 @@
               <d n="FbMethods" t="CaseInsensitiveHashtable_1" ckt="String" cvt="Guid">
                 <v>FB_Init</v>
                 <v>b36c1305-7b65-485d-b413-11ab90596263</v>
-                <v>FB_Exit</v>
-                <v>6b975f5c-5c82-45bf-a9fc-8b8bbdc1fb5f</v>
                 <v>FB_Reinit</v>
                 <v>f0396fab-bc2c-4f76-9cf4-6ef67ad24ff9</v>
+                <v>FB_Exit</v>
+                <v>6b975f5c-5c82-45bf-a9fc-8b8bbdc1fb5f</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{d5be167f-66c1-4c92-b25d-550012c1b987}</v>
@@ -2566,7 +2562,7 @@
               <o>
                 <v n="Id">8L</v>
                 <n n="Tag" />
-                <v n="Text">"	stVisu				: ST_PMLModuleBaseVISU;"</v>
+                <v n="Text">"	stVisu				: ST_PMLModuleBase_VISU;"</v>
               </o>
               <o>
                 <v n="Id">1L</v>

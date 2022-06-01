@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.10">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
   <Visu Name="V_Module" Id="{ab5ca517-81c1-49dd-92aa-b6c97677d45a}">
     <XmlArchive>
       <Data>
@@ -1716,10 +1716,10 @@
               <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
                 <v>FB_Init</v>
                 <v>9bfcbd5c-c1a1-45ea-b611-74fd9b6c53f0</v>
-                <v>FB_Exit</v>
-                <v>f5f88868-9a46-4fe2-8d37-3dbb0e53eb88</v>
                 <v>FB_Reinit</v>
                 <v>db716934-5388-428d-94f7-4a2afdcc3cde</v>
+                <v>FB_Exit</v>
+                <v>f5f88868-9a46-4fe2-8d37-3dbb0e53eb88</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{57b224ee-dc5a-46cf-a054-a5f65ecb6436}</v>
@@ -1774,7 +1774,7 @@
               <o>
                 <v n="Id">9L</v>
                 <n n="Tag" />
-                <v n="Text">"	stVisu				: ST_PMLModuleBaseVISU;"</v>
+                <v n="Text">"	stVisu				: ST_PMLModuleBase_VISU;"</v>
               </o>
               <o>
                 <v n="Id">1L</v>
